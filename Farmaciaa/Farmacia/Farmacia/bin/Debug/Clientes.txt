@@ -1,0 +1,2 @@
+1|luis|alfajayucan|luis@gmail.com|772112345|1678907
+2|jose|queretaro|jose@gmail.com|7721347890|120988

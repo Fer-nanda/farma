@@ -1,0 +1,3 @@
+20|tabletas|naproxeno|caja|capsulas|10|15
+10|tabletas|paracetamol|pastillas|caja|12|78
+10|jarabes|broncoli|solucion|verde|12|20

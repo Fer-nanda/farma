@@ -1,0 +1,20 @@
+﻿<Window x:Class="Farmacia.Agregar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Farmacia"
+        mc:Ignorable="d"
+        Title="Agregar" Height="500" Width="300">
+    <Window.Background>
+        <ImageBrush ImageSource="Imagenes/farmacia-el-saler-reforma-6-1030x1020.jpg"/>
+    </Window.Background>
+    <Grid>
+
+        <Button  Height="50" Width="100" x:Name="btnCategoria" Click="btnCategoria_Click" Margin="96,30,96,389" Content="Categoria" Background="#FF88B9EA" FontFamily="Kristen ITC"/>
+        <Button  Height="50" Width="100" x:Name="btnProductos" Click="btnProductos_Click" Margin="96,76,96,272" Content="Productos" Background="#FF88B9EA" FontFamily="Kristen ITC"/>
+        <Button  Height="50" Width="100" x:Name="btnCliente" Click="btnCliente_Click" Margin="96,150,96,194" Content="Cliente" FontFamily="Kristen ITC" Background="#FF88B9EA"/>
+        <Button  Height="50" Width="100" x:Name="btnEmpleado" Click="btnEmpleado_Click" Margin="96,230,96,121" Content="Empleado" Background="#FF88B9EA" FontFamily="Kristen ITC"/>
+        <Button  Height="50" Width="100" x:Name="btnRegresar" Click="btnRegresar_Click" Margin="96,300,96,38" Content="Regresar" Background="#FF88B9EA" FontFamily="Kristen ITC"/>
+    </Grid>
+</Window>
